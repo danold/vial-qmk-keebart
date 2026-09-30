@@ -4,3 +4,5 @@ VIALRGB_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
 CAPS_WORD_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
+SRC += rgb_layers.c os_detect_layer.c
+OS_DETECTION_ENABLE = yes
